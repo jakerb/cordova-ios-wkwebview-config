@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-ios-wkwebview-config" version="1.2.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+<name>iOS WKWebView Config</name>
+<author>Jake Bown (jakebown.com)</author>
+<description>Set CORS access configuration for WKWebView.</description>
+<keywords>cordova, ios, app, allow navigation</keywords>
+<license>MIT</license>
+<engines>
+    <engine name="cordova" version=">=3.0.0"/></engines>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine"/>
+    <feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine"/>
+    </feature>
+    <allow-navigation href="*"/>
+    <platform name="ios">
+        <preference name="Allow3DTouchLinkPreview" value="false"/>
+        <preference name="AllowBackForwardNavigationGestures" value="false"/>
+    </platform>
+</plugin>

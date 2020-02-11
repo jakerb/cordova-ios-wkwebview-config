@@ -1,0 +1,19 @@
+{
+  "name": "cordova-ios-wkwebview-config",
+  "version": "1.2.0",
+  "author": "Jake Bown",
+  "description": "Set CORS access configuration for WKWebView.",
+  "cordova": {
+    "id": "cordova-ios-wkwebview-config",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT"
+}
